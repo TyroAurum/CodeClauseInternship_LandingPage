@@ -1,0 +1,154 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 9vh;
+  align-items: center;
+  padding-left: 5%;
+  background-color: rgb(255,255,255);
+  color: black;
+}
+
+
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: inherit;
+  font-size: 0.85rem;
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  background-color: rgb(33,72,170);
+}
+.int{
+  width: 18vw;
+  height: 5vh;
+  background-color: rgb(244, 255, 255);
+  border: 1px solid black ;
+  color: black;
+  padding-left: 1vw;
+  margin-top: 2vh;
+}
+
+.btn{
+  width: 10vw;
+  height: 5vh;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+  width: 100vw;
+  padding-top: 20vh;
+  justify-content: space-evenly;
+}
+
+
+.message{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 7vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.formsection{
+  height: 50vh;
+  padding: 60px 40px;
+  border-radius: 9px;
+  background-color: aliceblue;
+}
+
+.formlabel{
+  color: black;
+  font-size: large;
+  font-weight: 700;
+}
+
+.label{
+  font-size: 60px;
+}
+
+
+.tabs{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.card{
+  color: rgb(255, 255, 255);
+  padding: 0px 5%;
+  width: 33vw;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.cardtitle{
+  margin-top: 2vh;
+  font-size: 20px;
+}
+
+.svgelement{
+  fill:white
+}
+
+.subsection{
+  font-size: 30px;
+}
+
+.section2{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 60vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec2title{
+  font-size: 50px;
+  margin-bottom: 5vh;
+}
+
+.sec2desc{
+  font-size: 50px;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  height:30vh;
+  width: 100vw;
+  background-color: gray;
+  font-size: larger;
+}
+
+.subcontact{
+  display: flex;
+  flex-direction: row;
+  margin-top: 7vh;
+  justify-content: space-between;
+  width: 70vw;
+
+}
+
+.contactlink{
+  display: flex;
+  margin-bottom: 2vh;
+}
